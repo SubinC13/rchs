@@ -1,0 +1,233 @@
+/* Loder */
+
+.box2{
+  width: 100px;
+  height: 100px;
+  background-color: #F4B328;
+  animation: dot;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes dot {
+  25%{
+      transform: perspective(400px) rotateY(60deg);
+      
+  }
+  50%{
+      transform: perspective(400px) rotateY(-60deg);
+      background-color: #07294D;;
+      
+  }
+  75%{
+      transform: perspective(400px) rotateY(360deg);
+      background-color: #F4B328;
+  }
+  100%{
+      transform: perspective(400px) rotateY(-360deg);
+      background-color: #07294D;;
+  
+  }
+}
+
+.loder{
+  margin: 0%;
+  padding: 0%;
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/*Loder End*/
+
+
+html, body {
+    background-color: white;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+#home:hover{
+    background-color:#07294D;
+    border-radius: 5px;
+    width: 80px;
+    text-align: center;
+    transition-duration: 0.2s;
+}
+#achevement:hover{
+    background-color:#07294D;
+    color: #F4B328;
+    border-radius: 5px;
+    width: 140px;
+    text-align: center;
+    transition-duration: 0.2s;
+}
+#achevement{
+  color:#07294D;
+}
+#more{
+  color:#07294D;
+}
+#aboutus{
+  color:#07294D;
+}
+#activite{
+  color:#07294D;
+}
+#more:hover{
+    background-color:#07294D;
+    color: #F4B328;
+    border-radius: 5px;
+    width: 90px;
+    text-align: center;
+    transition-duration: 0.2s;
+}
+#aboutus:hover{
+  background-color:#07294D;
+  color: #F4B328;
+  border-radius: 5px;
+  width: 90px;
+  text-align: center;
+  transition-duration: 0.2s;
+}
+#activite:hover{
+  background-color:#07294D;
+  color: #F4B328;
+  border-radius: 5px;
+  width: 90px;
+  text-align: center;
+  transition-duration: 0.2s;
+}
+.mapouter{
+  width:400px;
+  height:320px;
+}
+.gmap_canvas {
+  overflow:hidden;
+  background:none!important;
+  width:400px;
+  height:320px;
+}
+.gmap_iframe {
+  width:300px!important;
+  height:250px!important;
+}
+.material-symbols-outlined {
+font-variation-settings:
+'FILL' 0,
+'wght' 400,
+'GRAD' 0,
+'opsz' 48
+}
+.facebook_logo{
+  border-radius: 100%;
+}
+.facebook_logo:hover{
+  border: 5px solid #3b5998;
+  box-shadow: 0 0 15px #3b5998;
+  transition: 0.2s;
+}
+.Quick_Links{
+  color: white;
+  font-size: 16px;
+}
+.Quick_Links:link{
+  text-decoration: none;
+}
+.Quick_Links:visited{
+  text-decoration: none;
+}
+.Quick_Links:hover{
+  color:aqua;
+  letter-spacing: 0.5px;
+  transition: 0.2s;
+  font-weight: bold;
+}
+.material-symbols-outlined {
+font-variation-settings:
+'FILL' 0,
+'wght' 400,
+'GRAD' 0,
+'opsz' 48
+}
+
+
+
+
+#count_number{
+  color: #F4B328;
+  font-weight: bold;
+  font-size: 50px;
+}
+#count_content{
+  font-size: 30px;
+  color: #F4B328;
+}
+#aim_topic{
+  color: #07294D;
+  font-size: 20px;
+}
+
+
+
+
+
+#aim_topic{
+  font-family: 'Fredoka One', cursive;
+  font-weight: bold;
+  color: #07294D;
+  letter-spacing: 1px;
+}
+
+.aim_content{
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  word-spacing: 7px;
+  text-align: justify;
+  color: #07294D;
+  
+}
+#about_school_principal_main{
+  font-size: 17px;
+  font-family: 'Roboto', sans-serif;
+  word-spacing: 7px;
+  text-align: justify;
+}
+.about_school_principal_main_content{
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  color: #F4B328;
+}
+
+.about_school_principal_main_content_small{
+  color: #07294D;
+  font-size: 40px;
+  font-weight: bold;
+}
+.headmaster_Name{
+  font-size: 20px;
+}
+.head_master_heading{
+  font-size: 23px;
+  color: #07294D;
+}
+#head_master_image{
+  border-radius: 20px;
+  box-shadow: inset 5px 5px 12px #566e88,
+                    5px 5px 12px rgba(0, 0,0, 0.16);
+}
+
+#nav_anime{
+  animation: anime 0.5s ease-in-out;
+}
+
+@keyframes anime{
+  0%{
+    transform: translateY(-100%);
+  }
+}
